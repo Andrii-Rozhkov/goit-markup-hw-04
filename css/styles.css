@@ -391,7 +391,7 @@ a[href="#studio"]:active {
 
 .portfolio-card:hover .overlay {
     transform: translateY(0%);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    box-shadow: 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -433,6 +433,7 @@ a[href="#studio"]:active {
 .footer-container {
     display: flex;
     align-items: baseline;
+
 }
 
 .footer {
@@ -458,6 +459,10 @@ a[href="#studio"]:active {
 .footer-caption {
     margin: 0 0 16px 0;
     display: block;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .socials-foot {
