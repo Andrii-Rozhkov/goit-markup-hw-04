@@ -203,6 +203,7 @@ a[href="#studio"]:active {
 }
 
 .hero {
+    max-width: 1440px;
     padding: 188px 0;
     background-color: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -244,6 +245,7 @@ a[href="#studio"]:active {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
