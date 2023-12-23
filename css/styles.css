@@ -284,6 +284,8 @@ a[href="#studio"]:active {
 .features-icon-box {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 112px;
     padding: 24px;
     border-radius: 4px;
     border: 1px solid #8E8F99;
