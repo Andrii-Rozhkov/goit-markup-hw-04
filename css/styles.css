@@ -432,6 +432,7 @@ a[href="#studio"]:active {
 
 .footer-container {
     display: flex;
+    align-items: baseline;
 }
 
 .footer {
